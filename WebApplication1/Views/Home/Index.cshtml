@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model PessoaViewlModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Model.Nome - @Model.Idade</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <form method="post">
+        <input type="text" name="Nome"  />
+        <input type="number" name="Idade" />
+        <input type="submit" />
+    </form>
+
+
+</div>
